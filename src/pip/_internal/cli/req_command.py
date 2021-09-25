@@ -272,7 +272,7 @@ class RequirementCommand(IndexGroupCommand):
             require_hashes=options.require_hashes,
             use_user_site=use_user_site,
             lazy_wheel=lazy_wheel,
-            in_tree_build="in-tree-build" in options.features_enabled,
+            in_tree_build=True,
         )
 
     @classmethod

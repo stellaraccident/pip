@@ -307,7 +307,7 @@ class RequirementPreparer:
         self.use_lazy_wheel = lazy_wheel
 
         # Should in-tree builds be used for local paths?
-        self.in_tree_build = in_tree_build
+        self.in_tree_build = True
 
         # Memoized downloaded files, as mapping of url: path.
         self._downloaded: Dict[str, str] = {}
